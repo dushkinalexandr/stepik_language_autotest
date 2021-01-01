@@ -27,20 +27,19 @@ def test_guest_should_see_btn_add_to_basket(browser):
 
 
 """
-$ pytest -sv --tb=short --browser_name=firefox --language=en test_items.py 
+$ pytest -sv --tb=short --language=fr test_items.py
 ================================================================== test session starts ===================================================================
-platform linux -- Python 3.8.5, pytest-5.1.1, py-1.10.0, pluggy-0.13.1 -- /usr/bin/python3.8
+platform linux -- Python 3.8.5, pytest-6.2.1, py-1.10.0, pluggy-0.13.1 -- /home/Python/stepik/stepik_language_autotest/venv/bin/python
 cachedir: .pytest_cache
-rootdir: /home/ku/Python/stepik/stepik_automation_test/Chapter3, inifile: pytest.ini
-plugins: rerunfailures-9.1.1
+rootdir: /home/Python/stepik/stepik_language_autotest
 collected 1 item                                                                                                                                         
 
-Chapter3/les6_9_language_test/test_items.py::test_guest_should_see_btn_add_to_basket 
+test_items.py::test_guest_should_see_btn_add_to_basket 
 start test.. 
-browser: firefox 
-language: en
+browser: chrome 
+language: fr
 PASSED
-quit browser..
+quit browser.
 
-=================================================================== 1 passed in 9.49s ====================================================================
+=================================================================== 1 passed in 5.21s ====================================================================
 """
